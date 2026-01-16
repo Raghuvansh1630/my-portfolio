@@ -104,9 +104,19 @@ footer {
     padding: 20px;
     width: 300px;
     border-radius: 8px;
-    /* Rounds the corners */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    /* Adds a subtle shadow */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    
+    /* New styles for clickable cards */
+    text-decoration: none; /* Removes the ugly link underline */
+    color: #333;           /* Keeps text dark grey */
+    display: block;        /* Makes the link behave like a box */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Moves up slightly when hovered */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2); /* Shadow gets bigger */
+    cursor: pointer;
 }
 
 /* 7. Social Icons */
