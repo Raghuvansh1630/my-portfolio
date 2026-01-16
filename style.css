@@ -2,24 +2,29 @@
 html {
     scroll-behavior: smooth;
 }
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    color: #333; /* Dark grey text is easier to read than black */
+    color: #333;
+    /* Dark grey text is easier to read than black */
 }
 
 /* 2. Header and Navigation Bar */
 header {
-    background: #2c3e50; /* Dark Blue background */
+    background: #2c3e50;
+    /* Dark Blue background */
     color: #fff;
     padding: 1rem 0;
 }
 
 nav {
-    display: flex; /* This aligns items in a row */
-    justify-content: space-between; /* Pushes name to left, links to right */
+    display: flex;
+    /* This aligns items in a row */
+    justify-content: space-between;
+    /* Pushes name to left, links to right */
     align-items: center;
     width: 90%;
     margin: auto;
@@ -27,7 +32,8 @@ nav {
 
 nav ul {
     display: flex;
-    list-style: none; /* Removes bullet points */
+    list-style: none;
+    /* Removes bullet points */
 }
 
 nav ul li {
@@ -36,15 +42,19 @@ nav ul li {
 
 nav a {
     color: #fff;
-    text-decoration: none; /* Removes underline from links */
+    text-decoration: none;
+    /* Removes underline from links */
     font-weight: bold;
 }
 
 /* 3. Hero Section (The main welcome area) */
 #hero {
-   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white; /* Makes text white so it's readable on the dark color */ /* Light grey background */
-    height: 60vh; /* Takes up 60% of the screen height */
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    /* Makes text white so it's readable on the dark color */
+    /* Light grey background */
+    height: 60vh;
+    /* Takes up 60% of the screen height */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -73,6 +83,7 @@ footer {
     padding: 20px;
     margin-top: 20px;
 }
+
 /* 6. Projects Section */
 #projects {
     background-color: #fff;
@@ -92,22 +103,30 @@ footer {
     border: 1px solid #ddd;
     padding: 20px;
     width: 300px;
-    border-radius: 8px; /* Rounds the corners */
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Adds a subtle shadow */
+    border-radius: 8px;
+    /* Rounds the corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Adds a subtle shadow */
 }
+
 /* 7. Social Icons */
 .social-icons {
     margin-top: 20px;
 }
 
 .social-icons a {
-    color: white;       /* White makes them visible on the dark gradient */
-    font-size: 40px;    /* Makes them nice and big */
-    margin: 0 15px;     /* Adds space between the icons */
+    color: white;
+    /* White makes them visible on the dark gradient */
+    font-size: 40px;
+    /* Makes them nice and big */
+    margin: 0 15px;
+    /* Adds space between the icons */
     text-decoration: none;
-    transition: transform 0.3s ease; /* Adds a cool animation effect */
+    transition: transform 0.3s ease;
+    /* Adds a cool animation effect */
 }
 
 .social-icons a:hover {
-    transform: scale(1.2); /* Makes the icon grow slightly when you hover! */
+    transform: scale(1.2);
+    /* Makes the icon grow slightly when you hover! */
 }
