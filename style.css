@@ -140,3 +140,33 @@ footer {
     transform: scale(1.2);
     /* Makes the icon grow slightly when you hover! */
 }
+/* 8. Skills Section */
+#skills {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f9f9f9; /* Very light grey */
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;       /* Space between badges */
+    flex-wrap: wrap; /* Allows them to wrap on small phones */
+    margin-top: 20px;
+}
+
+.skill-badge {
+    background: #2c3e50; /* Dark Blue */
+    color: white;
+    padding: 10px 25px;  /* Makes them look like pills */
+    border-radius: 50px; /* Round edges */
+    font-weight: bold;
+    font-size: 1.1rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Subtle shadow */
+    transition: transform 0.2s;
+}
+
+.skill-badge:hover {
+    transform: scale(1.1); /* Grows slightly when hovered */
+    background: #667eea;   /* Changes color to match your gradient */
+}
