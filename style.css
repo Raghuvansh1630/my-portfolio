@@ -170,3 +170,17 @@ footer {
     transform: scale(1.1); /* Grows slightly when hovered */
     background: #667eea;   /* Changes color to match your gradient */
 }
+/* 10. About Section */
+#about {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #fff; /* White background */
+    max-width: 800px;       /* Keeps text from getting too wide */
+    margin: 0 auto;         /* Centers the section */
+}
+
+.about-content p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.8;       /* Makes text easy to read */
+}
