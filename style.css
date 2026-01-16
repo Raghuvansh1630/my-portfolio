@@ -42,7 +42,8 @@ nav a {
 
 /* 3. Hero Section (The main welcome area) */
 #hero {
-    background: #ecf0f1; /* Light grey background */
+   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white; /* Makes text white so it's readable on the dark color */ /* Light grey background */
     height: 60vh; /* Takes up 60% of the screen height */
     display: flex;
     flex-direction: column;
@@ -93,4 +94,20 @@ footer {
     width: 300px;
     border-radius: 8px; /* Rounds the corners */
     box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Adds a subtle shadow */
+}
+/* 7. Social Icons */
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    color: white;       /* White makes them visible on the dark gradient */
+    font-size: 40px;    /* Makes them nice and big */
+    margin: 0 15px;     /* Adds space between the icons */
+    text-decoration: none;
+    transition: transform 0.3s ease; /* Adds a cool animation effect */
+}
+
+.social-icons a:hover {
+    transform: scale(1.2); /* Makes the icon grow slightly when you hover! */
 }
