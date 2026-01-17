@@ -15,9 +15,14 @@ body {
 /* 2. Header and Navigation Bar */
 header {
     background: #2c3e50;
-    /* Dark Blue background */
     color: #fff;
     padding: 1rem 0;
+    
+    /* Sticky Magic */
+    position: sticky; /* Tells browser to stick it */
+    top: 0;           /* Stick specifically to the top edge */
+    z-index: 1000;    /* Ensures it floats ABOVE everything else */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Adds a shadow so it separates from content */
 }
 
 nav {
