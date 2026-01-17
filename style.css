@@ -56,10 +56,11 @@ nav a {
 #hero {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
-    /* Makes text white so it's readable on the dark color */
-    /* Light grey background */
-    height: 60vh;
-    /* Takes up 60% of the screen height */
+    
+    /* FIX: Make it taller and add padding so text isn't hidden */
+    min-height: 90vh; /* Changed from height: 60vh to min-height: 90vh */
+    padding-top: 80px; /* Pushes content down below the sticky header */
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
