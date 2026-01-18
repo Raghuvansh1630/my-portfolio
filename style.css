@@ -190,3 +190,22 @@ footer {
     color: #555;
     line-height: 1.8;       /* Makes text easy to read */
 }
+/* 12. Footer Styling */
+footer {
+    background-color: #2c3e50; /* Dark Blue background */
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer-socials a {
+    color: #fff;            /* White text */
+    text-decoration: none;  /* No underline */
+    font-size: 1.1rem;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.footer-socials a:hover {
+    color: #667eea; /* Turns light blue/purple on hover */
+}
