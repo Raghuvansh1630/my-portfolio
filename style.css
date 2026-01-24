@@ -209,3 +209,14 @@ footer {
 .footer-socials a:hover {
     color: #667eea; /* Turns light blue/purple on hover */
 }
+/* Style for the Code Block */
+.code-box {
+    background-color: #1e1e1e; /* Dark Grey Background */
+    color: #dcdcdc;            /* Light Grey Text */
+    padding: 20px;             /* Space inside the box */
+    border-radius: 8px;        /* Rounded corners */
+    margin: 20px 0;            /* Space around the box */
+    font-family: 'Courier New', monospace; /* Code-style font */
+    border-left: 5px solid #667eea; /* Purple stripe on the left */
+    overflow-x: auto;          /* Scrollbar if code is too long */
+}
