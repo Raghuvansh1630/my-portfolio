@@ -18,8 +18,8 @@
             <h1>Raghuvansh.</h1>
             <ul>
                 <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -35,38 +35,57 @@
             <a href="https://www.linkedin.com/" target="_blank">
                 <i class="fab fa-linkedin"></i>
             </a>
-            <section id="about" class="hidden">
-                <h2>About Me</h2>
-                <div class="about-content hidden">
-                    <p>
-                        I am a <strong>Computer Science Engineering</strong> student located in India.
-                        While I am just starting my journey, I am deeply passionate about <strong>Mathematics</strong>
-                        and <strong>Technology</strong>.
-                    </p>
-                    <br>
-                    <p>
-                        My goal is to master <strong>Data Science</strong> and <strong>Machine Learning</strong> to
-                        build impactful projects.
-                        I created this website to document my learning process.
-                    </p>
-                </div>
-            </section>
-        </div>
-    </section>
-    <section id="skills">
-        <h2>Technical Skills</h2>
-        <div class="skills-container hidden">
-            <span class="skill-badge">Python</span>
-            <span class="skill-badge">Data Science</span>
-            <span class="skill-badge">C++</span>
-            <span class="skill-badge">Git</span>
-            <span class="skill-badge">Mathematics</span>
         </div>
     </section>
 
-    <section id="projects">
+    <section id="about" class="hidden">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <p>
+                I am a <strong>Computer Science Engineering</strong> student located in India.
+                While I am just starting my journey, I am deeply passionate about <strong>Mathematics</strong>
+                and <strong>Technology</strong>.
+            </p>
+            <br>
+            <p>
+                My goal is to master <strong>Data Science</strong> and <strong>Machine Learning</strong> to
+                build impactful projects.
+                I created this website to document my learning process.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills" class="hidden">
+        <h2>My Technical Skills</h2>
+        <div class="skills-container" style="max-width: 800px; margin: 0 auto; text-align: left;">
+
+            <div class="skill-box">
+                <p>Data Science (Python, Pandas, NumPy)</p>
+                <div class="progress-bar">
+                    <div class="progress ds-progress"></div>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <p>Machine Learning (Algorithms & Models)</p>
+                <div class="progress-bar">
+                    <div class="progress ml-progress"></div>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <p>Data Visualization (Matplotlib)</p>
+                <div class="progress-bar">
+                    <div class="progress dataviz-progress"></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="projects" class="hidden">
         <h2>My Projects</h2>
-        <div class="project-grid hidden">
+        <div class="project-grid">
 
             <a href="datascience.html" class="card">
                 <h3>Data Science Studies</h3>
@@ -95,8 +114,8 @@
         <br>
         <p>&copy; 2026 Raghuvansh. Built with HTML & CSS.</p>
     </footer>
+    
     <script src="script.js"></script>
-</body>
 </body>
 
 </html>

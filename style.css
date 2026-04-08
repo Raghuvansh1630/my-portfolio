@@ -146,36 +146,49 @@ footer {
     transform: scale(1.2);
     /* Makes the icon grow slightly when you hover! */
 }
-/* 8. Skills Section */
+/* 8. Skills Section (Animated Progress Bars) */
 #skills {
     padding: 50px 20px;
     text-align: center;
-    background-color: #f9f9f9; /* Very light grey */
+    background-color: #f9f9f9; 
 }
 
 .skills-container {
-    display: flex;
-    justify-content: center;
-    gap: 15px;       /* Space between badges */
-    flex-wrap: wrap; /* Allows them to wrap on small phones */
-    margin-top: 20px;
+    padding: 20px;
 }
 
-.skill-badge {
-    background: #2c3e50; /* Dark Blue */
-    color: white;
-    padding: 10px 25px;  /* Makes them look like pills */
-    border-radius: 50px; /* Round edges */
+.skill-box {
+    margin-bottom: 25px;
+}
+
+.skill-box p {
+    margin: 0 0 10px 0;
     font-weight: bold;
     font-size: 1.1rem;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Subtle shadow */
-    transition: transform 0.2s;
 }
 
-.skill-badge:hover {
-    transform: scale(1.1); /* Grows slightly when hovered */
-    background: #667eea;   /* Changes color to match your gradient */
+/* The empty track for the bar */
+.progress-bar {
+    background-color: #e0e0e0; /* Light grey background */
+    border-radius: 20px;       /* Rounded edges */
+    height: 22px;
+    width: 100%;
+    overflow: hidden;
 }
+
+/* The colored fill inside the track */
+.progress {
+    height: 100%;
+    border-radius: 20px;
+    background-color: #66e3ea; /* Your signature purple/blue */
+    width: 0;                  /* Starts at 0% so it can animate */
+    transition: width 2s ease-in-out; /* Takes 2 seconds to fill smoothly */
+}
+
+/* The actual percentages - These trigger when the scroll animation hits! */
+.show .ds-progress { width: 85%; }
+.show .ml-progress { width: 65%; }
+.show .dataviz-progress { width: 75%; }
 /* 10. About Section */
 #about {
     padding: 60px 20px;
