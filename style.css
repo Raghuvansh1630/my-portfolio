@@ -180,7 +180,7 @@ footer {
 .progress {
     height: 100%;
     border-radius: 20px;
-    background-color: #66e3ea; /* Your signature purple/blue */
+    background-color: #667eea; /* Your signature purple/blue */
     width: 0;                  /* Starts at 0% so it can animate */
     transition: width 2s ease-in-out; /* Takes 2 seconds to fill smoothly */
 }
